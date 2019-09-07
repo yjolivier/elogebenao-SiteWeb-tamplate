@@ -140,7 +140,7 @@ Slider style
 }
 /*
 ================================================================================================
-Section evenement
+Section actualité
 ================================================================================================
 */
 .section-evenement{
@@ -223,10 +223,44 @@ Section evenement
 }
 /*
 ================================================================================================
-Section actualité
+Section parallax
 ================================================================================================
 */
-.section-actualite{
+.parallax {
+    /* The image used */
+	background-image: url("../img/img4.jpg");
+
+    /* Set a specific height */
+    min-height: 350px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.parallax-article{
+	position: absolute;
+	background-color: rgba(2, 79, 204,0.2);
+	height: 100%;
+	bottom: 0px;
+	color: white;
+}
+.parallax-article h2{
+	padding-left: 50px;
+}
+.parallax-article p {
+	width: 30%;	
+	padding-left: 50px;
+}
+
+/*
+================================================================================================
+Section Projet
+================================================================================================
+*/
+.section-project{
 	background-color: #fff;
 	padding: 0px;
 }
@@ -236,35 +270,8 @@ Section actualité
     text-align: center;
     position: relative;
 }
-.block-article-actualite{
-	font-family: montserrat;
-    color: #272727;
-    margin-bottom: 30px;
-    overflow: hidden;
-    border-radius: 0px;
-}
-.block-article-actualite .actualite-article {
-	border-radius: 0px;
-    padding: 20px;
-    border: 0px;
-}
-.block-article-actualite .actualite-article .body-actualite{
-	border: solid 1px #707070;
-}
-.body-actualite h5{
-	margin-top: 26px;
-}
-.section-actualite .bulle-numero{
-    background-color: #FFC21C;
-    padding: 13px 15px;
-    margin-bottom: -24px;
-    margin-left: 41%;
-    border-radius: 30px;
-    text-align: center;
-    color: #fff;
-    font-size: 1.2em;
-    z-index: 1;
-    width: 58px;
+.section-project .block-project-one{
+	height: 400px;
 }
 footer{
 	background-color: #4E4E4E;

@@ -15,7 +15,7 @@
 	</head>
 	<body class="corps">
 		<div class="container-fluid">
-			<header class="row sticky-top">
+			<header class="row">
 				<div class="header-logo col-lg-4 col-md-12 col-sm-6 col-6">
 					<p>SITE WEB</p>
 				</div>
