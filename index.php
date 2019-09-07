@@ -147,19 +147,44 @@
 				</div>
 			</section>
 			<section class="section-project row">
-				<div class="section-actualite-title col-lg-12 col-12">
-					<h2>MES PROJETS</h2>
-					<hr width="80%" size="0.25" color="#ccc" />
+				<div class="section-actualite-title col-lg-6 col-6">
+					<h3>MES PROJETS</h3>
 				</div>
+				<div class="see-more col-lg-6 col-6">
+					<a href="#"><h6 align="right">LIRE TOUT</h6></a>
+				</div>
+				<hr width="90%" size="0.25" color="#F1592A" />
 				<div class="col-lg-12">
-					<div class="row">
+					<div class="principale-project-block row">
 						<div class="block-project-one col-lg-6">
 							<a href="#"><img src="img/img2.jpg" width="100%" height="100%"></a>
+							<div class="project">
+								<div class="project-text">
+									<h5>EVENEMENT</h5>
+					          		<p>Discover flexible car financing options for new or used cars, and specialty vehicles nsequat fringi porta.</p>
+				          		</div>
+			          		</div>
 						</div>
 						<div class="col-lg-6">
 							<div class="row">
-								<div class="block-project col-lg-12">col</div>
-								<div class="block-project col-lg-12">col</div>
+								<div class="block-project col-lg-12">
+									<a href="#"><img src="img/img2.jpg" width="100%" height="100%"></a>
+									<div class="project">
+										<div class="project-card-text">
+											<h5>EVENEMENT</h5>
+							          		<p>Discover flexible car financing options for new or used cars, and specialty vehicles nsequat fringi porta.</p>
+						          		</div>
+					          		</div>
+								</div>
+								<div class="block-project col-lg-12">
+									<a href="#"><img src="img/img2.jpg" width="100%" height="100%"></a>
+									<div class="project">
+										<div class="project-card-text">
+											<h5>EVENEMENT</h5>
+							          		<p>Discover flexible car financing options for new or used cars, and specialty vehicles nsequat fringi porta.</p>
+						          		</div>
+					          		</div>
+								</div>
 							</div>
 						</div>
 					</div>

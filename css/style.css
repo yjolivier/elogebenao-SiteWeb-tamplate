@@ -261,18 +261,70 @@ Section Projet
 ================================================================================================
 */
 .section-project{
-	background-color: #fff;
 	padding: 0px;
+	background-color: #f8f1ff;
 }
 .section-actualite-title {
-	padding: 15px;
-    color: #FFC21C;
-    text-align: center;
-    position: relative;
+	padding: 15px 0px 0px 63px;
+    color: #F1592A;
 }
 .section-project .block-project-one{
 	height: 400px;
+	background-size: cover;
+	background-color: #f8f1ff;
+	padding-right: 0px;
 }
+.see-more a{
+	text-decoration: none;
+	color: #F1592A;
+}
+.see-more{
+	padding: 30px 67px 0px 0px;
+}
+.see-more a:hover{
+	color: rgb(2, 79, 204);
+}
+hr{
+	margin: 0 0 0 5%;
+	margin-bottom: 10px;
+}
+.principale-project-block{
+	padding: 0px 51px 0px 39px;
+	margin: 0px;
+}
+.project{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(2, 79, 204, 0.2);
+}
+.project-text{
+	margin-top: 37%;
+	color: orange;
+	padding-left: 28px;
+}
+.project-text p{
+	color: white;
+}
+.block-project {
+    height: 200px;
+    padding: 0px;
+}
+.project-card-text{
+	margin-top: 10%;
+	color: orange;
+	padding-left: 28px;
+}
+.project-card-text p{
+	color: white;
+}
+/*
+================================================================================================
+footer
+================================================================================================
+*/
+
 footer{
 	background-color: #4E4E4E;
 	color: #fff;
