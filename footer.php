@@ -2,7 +2,7 @@
 				<div class="footer-container-top col-lg-12">
 					<div class="row">
 						<div class="footer-logo col-lg-2 col-md-12">
-							<p>SITE WEB</p>
+							<img src="img/logo.png">
 						</div>
 						<div  class="descriptition-container col-lg-6 col-md-8">
 							<p>

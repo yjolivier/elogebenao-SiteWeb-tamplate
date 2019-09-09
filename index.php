@@ -154,14 +154,14 @@
 		</div>
 	</section>
 	<section class="section-project row">
-		<div class="section-actualite-title col-lg-6 col-6">
+		<div class="section-actualite-title col-lg-6 col-7">
 			<h3>MES PROJETS</h3>
 		</div>
-		<div class="see-more col-lg-6 col-6">
+		<div class="see-more col-lg-6 col-5">
 			<a href="#"><h6 align="right">LIRE TOUT</h6></a>
 		</div>
 		<hr width="100%" size="0.25" color="#F1592A" />
-		<div class="block-project-left col-lg-6 col-md-6">
+		<div class="block-project-left col-lg-6 col-md-6 col-sm-12">
 			<div class="project">
 				<a href="#"><img src="img/img6.jpg"></a>
 				<div class="project-text-left">
@@ -172,7 +172,7 @@
 		</div>
 		<div class="col-lg-6 col-md-6">
 			<div class="row">
-				<div class="block-project col-lg-12 col-md-12">
+				<div class="block-project col-lg-12 col-md-12 col-sm-12">
 					<div class="project">
 						<img src="img/img3.jpg">
 						<div class="project-text">
@@ -181,7 +181,7 @@
 		          		</div>
 	          		</div>
 				</div>
-				<div class="block-project col-lg-12 col-md-12">
+				<div class="block-project col-lg-12 col-md-12 col-sm-12">
 					<div class="project">
 						<img src="img/img7.jpg">
 						<div class="project-text">

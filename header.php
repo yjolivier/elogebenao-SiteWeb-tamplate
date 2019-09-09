@@ -17,7 +17,7 @@
 		<div class="container-fluid">
 			<header class="row">
 				<div class="header-logo col-lg-4 col-md-4 col-sm-6 col-6">
-					<p>SITE WEB</p>
+					<img src="img/logo.png">
 				</div>
 				<div class="header-menu col-lg-8 col-md-8 col-sm-6 col-6">
 					<nav class="navbar navbar-expand-md navbar-white bg-white">

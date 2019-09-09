@@ -7,7 +7,10 @@ h1, h2, h3, h4, h5 ,h6{
 	font-family: "Poppins";
 	font-weight: 700;
 }
-
+p {
+	font-weight: 550;
+	font-size: 17px;
+}
 .corps{
 	background-color: #ccc;
 }
@@ -17,21 +20,23 @@ header{
     padding: 10px;
 }
 .header-logo{
-	color: #F1592A;
-	font-size: 2.3em;
 	padding-left: 40px;
 	padding-top: 13px;
 }
+.header-logo img{
+	min-height: 100%;
+	width: 150px;
+}
 .header-menu{
-	width: auto;
 	font-family: 'Poppins';
+	padding-top: 25px;
 }
 .nav-item {
     padding: 10px;
 }
 .header-menu a{
 	text-decoration: none;
-	font-size: 15px;
+	font-size: 17px;
 	color: #66707f;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -80,14 +85,8 @@ Slider style
 	text-align: center;
 	margin: 14% 0px 0px 25%;
 }
-.slide-article h2{
+.slide-article h2, .slide-article p{
 	color: #fff;
-	font-weight: bold;
-}
-.slide-article p{
-	color: #fff;
-	font-size: 15px;
-	font-weight: 550;
 }
 .carousel-btn-container{
 	width: 50%;
@@ -209,9 +208,6 @@ Section actualité
 	background-color: rgb(2, 79, 204);
 	cursor: pointer; 
 }
-.block-article p{
-	font-size: 0.8em;
-}
 .block-article .time{
 	text-transform: uppercase;
 	color: #8f6d0c;
@@ -232,8 +228,7 @@ Section actualité
 }
 .card-body p{
 	color: #626265;
-	font-weight: normal;
-	padding: 10px;
+	padding: 2px;
 }
 .card-body h5{
 	color: #F1592A;
@@ -323,15 +318,15 @@ hr {
 }
 .block-project-left{
 	padding:0px;	
-	overflow: hidden;
 	height: 410px; 
 	position: relative;
 	background-color: rgb(2, 79, 204);
+	overflow: hidden;
 }
 .block-project-left img{
-	width: 100%;
-	height: auto;
-	transition: transform .5s;
+	width: 100%; 
+	min-height: 100%;
+	transition: transform .5s;		
 }
 .block-project-left img:hover{
 	opacity: 0.6;
@@ -345,25 +340,26 @@ hr {
 	padding-right: 0px;
 }
 .block-project img{
-	width: 100%;
-	height: auto;
-	transition: transform .5s;		
+	width: 100%; 
+	min-height: 100%;
+	transition: transform .5s;
 }
 .block-project img:hover{
 	opacity: 0.6;
 	transform: scale(1.8) rotate(20deg);
 }
 .project{
-	background-color: rgb(2, 79, 204);
+	background-color: rgb(1, 26, 67);
 	overflow: hidden; 
+	height: 100%;
 }
 
 .project-text-left{
 	position: absolute;
-	bottom: -26%;
+	bottom: -50%;
 	margin-left: 15px;
 	padding: 10px;
-	transition: bottom .5s;
+	transition: bottom .3s;
 	color: #F1592A;
 }
 .project:hover > .project-text-left{
@@ -375,10 +371,10 @@ hr {
 }
 .project-text{
 	position: absolute;
-	bottom: -60%;
+	bottom: -90%;
 	margin-left: 15px;
 	padding: 10px;
-	transition: bottom .5s;
+	transition: bottom .3s;
 	color: #F1592A;
 }
 .project:hover > .project-text{
@@ -397,14 +393,14 @@ footer{
 .footer-container-top{
 	padding: 15px 85px 20px 85px;
 }
-.footer-logo{
-	color: #F1592A;
-	font-size: 2.3em;
-	padding-top: 3%;
+.footer-logo img{
+	width: 150px;
+	min-height: 100%;
 }
-footer .descriptition-container {
+footer .descriptition-container p{
 	color: #d9d7d7;
     font-weight: 550;
+    font-size: 17px;
 }
 footer .descriptition-container i{
 	width: 30px;
@@ -569,7 +565,7 @@ Media queries
 	footer .col-sm{
 		text-align: left;
 	}
-	.footer-container-top ,.block-article, .parallax-card-text{
+	.footer-container-top ,.block-article, .parallax-card-text, .section-project.row{
     	padding: 15px 30px 20px 38px;
 	}
 	.reseau-social-container{
@@ -603,6 +599,22 @@ Media queries
 	.block-article{
 		margin-bottom: 20px;
 		justify-content: space-around;
+	}
+
+	/*section-project personalisation */
+	.project {
+    	width: 100%;
+	}
+	.block-project-left, .block-project{
+		height: 300px;
+		padding: 0px;
+	}
+	.block-project-left{
+		margin-bottom: 10px;
+	}
+	.block-project-left img,.block-project img {
+	    min-width: 100%;
+	    height: auto;
 	}
 
 }
@@ -644,5 +656,21 @@ Media queries
 		width: 90px;
 		font-size: 0.6em;
 		padding: 5px;
+	}
+	/*parallax personalisation */
+	.parallax-card-text h2 {
+    	font-size: 1.4em;
+	}
+	.parallax-card-text {
+    	width: 90%;
+	}
+	/*section project personalisation */
+	.section-project.row h3{
+		font-size: 1.1em;
+		margin-top: 13px;
+	}
+	/*footer personalisation */
+	.footer-container-top ,.block-article, .parallax-card-text, .section-project.row{
+    	padding: 5px 15px 20px 16px;
 	}
 }
