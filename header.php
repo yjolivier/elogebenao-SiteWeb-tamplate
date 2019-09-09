@@ -16,10 +16,10 @@
 	<body class="corps">
 		<div class="container-fluid">
 			<header class="row">
-				<div class="header-logo col-lg-4 col-md-12 col-sm-6 col-6">
+				<div class="header-logo col-lg-4 col-md-4 col-sm-6 col-6">
 					<p>SITE WEB</p>
 				</div>
-				<div class="header-menu col-lg-8 col-md-12 col-sm-6 col-6">
+				<div class="header-menu col-lg-8 col-md-8 col-sm-6 col-6">
 					<nav class="navbar navbar-expand-md navbar-white bg-white">
 						<button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
 							<span class="navbar-toggler-icon btn-menu">

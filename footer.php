@@ -1,47 +1,48 @@
 			<footer class="row">
-				<div class="footer-header col-lg-12 col-sm-12 col-md-12">
-					<div class="row footer-header-title">
-						<div class="footer-logo col-lg-5 col-md-5 col-sm-12">
+				<div class="footer-container-top col-lg-12">
+					<div class="row">
+						<div class="footer-logo col-lg-2 col-md-12">
 							<p>SITE WEB</p>
 						</div>
-						<div class="search-bar col-lg-7 col-md-7 col-sm-12">
-							<form id="formulaire" method="POST">
-									<input class="champdesaisir" type="text" name="motdepasse" placeholder="Recherche">
-									<input class="bouton" name="btn" type="submit" value="go" />
-							</form>
+						<div  class="descriptition-container col-lg-6 col-md-8">
+							<p>
+								Our goal at Borrow Loan Company is to provide
+								access to personal loans and education loan, car
+								loan, home loan at insight competitive interest rates
+								lorem ipsums. We are the loan provider, you can use
+								our loan product.
+							</p>
+							<div class="row">
+								<p class="col">
+									<i class="fas fa-map-marker-alt"></i>  3895 Sycamore Road Arlington, 97812 
+								</p>
+								<p class="col">
+									<i class="fas fa-phone-alt"></i>800-123-456
+								</p>
+							</div>
 						</div>
+						<div class="footer-menu col-lg-2 col-md-4 col-6">
+							<ul>
+								<li><a href="#">ACCUEIL</a></li>
+								<li><a href="#">PRESENTATION</a></li>
+								<li><a href="#">A PROPOS</a></li>
+								<li><a href="#">BL0G</a></li>
+								<li><a href="#">PROGRAMME</a></li>
+								<li><a href="#">NOUS CONTACTER</a></li>
+							</ul>
+						</div>
+						<div class="reseau-social-container col-lg-2 col-md-6 col-6">
+							<ul>
+								<li><a href="#"><i class="fab fa-facebook-f"></i>  facebook</a></li>
+								<li><a href="#"><i class="fab fa-instagram"></i>  instagram</a></li>
+								<li><a href="#"><i class="fab fa-twitter"></i>  twitter</a></li>
+								<li><a href="#"><i class="fas fa-envelope-square"></i>  gmail</a></li>
+							</ul>
+						</div> 
 					</div>
 				</div>
-				<hr width="90%" size="1" color="#CECECE">
-				<div class="footer-bloc-info row">
-					<div  class="descriptition col-lg-5 col-md-5 col-sm-12">
-						<p>
-							Our goal at Borrow Loan Company is to provide
-							access to personal loans and education loan, car
-							loan, home loan at insight competitive interest rates
-							lorem ipsums. We are the loan provider, you can use
-							our loan product.
-						</p>
-					</div>
-					<div class="footer-menu col-lg-4 col-md-4 col-sm-12">
-						<ul>
-							<li><a href="#">ACCUEIL</a></li>
-							<li><a href="#">PRESENTATION</a></li>
-							<li><a href="#">A PROPOS</a></li>
-							<li><a href="#">BL0G</a></li>
-							<li><a href="#">PROGRAMME</a></li>
-							<li><a href="#">NOUS CONTACTER</a></li>
-						</ul>
-					</div>
-					<div class="reseau-social col-lg-2 col-md-2 col-sm-12">
-						<a href="#"><i class="fab fa-facebook-f"></i></a>
-						<a href="#"><i class="fab fa-instagram"></i></a>
-						<a href="#"><i class="fab fa-twitter"></i></a>
-						<a href="#"><i class="fas fa-envelope-square"></i></a>
-					</div>
-				</div>
-				<div class="signature col-lg-12">
-					<p class="">©designed by Olivier Yao</p>
+				<div class="signature-container col-lg-12">
+					<p>©designed by Olivier Yao</p>
 				</div>
 			</footer>
 		</div>
