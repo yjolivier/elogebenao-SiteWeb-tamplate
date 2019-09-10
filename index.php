@@ -1,10 +1,10 @@
 <?php include("header.php"); ?>
 	<section class="row">
 			<div class="carousel-container $slide_status">
-				<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+				<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-pause="true" data-ride="false">
 					<div class="carousel-inner">
 			      		<div class="carousel-item slide active">
-		                    <img src="img/slide_1.jpg" width="100%" height="auto">
+		                    <img src="https://samuelguebo.ci/medias/uploads/2018/03/Wiki-Kisra_maker-1080x400.jpeg">
 		                    <div class="slide-article">
 		                    	<div class="carousel-article-container">
 				                    <h2>
@@ -74,6 +74,9 @@
 					</a>
 				</div>
 			</div>
+			<script type="text/javascript">
+				//$('#carouselExampleFade').carousel()
+			</script>
 	</section>
 	<section class="section-evenement row">
 		<div class="section-evenement-title col-md-12 col-lg-12 col-sm-12">

@@ -42,7 +42,7 @@
 					</div>
 				</div>
 				<div class="signature-container col-lg-12">
-					<p>©designed by Olivier Yao</p>
+					<p>© Designed by Olivier Yao</p>
 				</div>
 			</footer>
 		</div>

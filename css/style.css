@@ -17,7 +17,6 @@ p {
 header{
 	height: auto;
     background-color: #fff;
-    padding: 10px;
 }
 .header-logo{
 	padding-left: 40px;
@@ -58,21 +57,34 @@ header .btn-menu:hover{
 Slider style
 ================================================================================================
 */
+
 .slide{
 	width: 100%;
 	background-size:cover;
 	height: 450px;
 	position: relative;
 	overflow: hidden;
-	background-color: rgba(2, 79, 204);	
+	background-color: rgba(0, 0, 0, .5);
+	opacity: .9;	
 } 
-.carousel-container .slide img{
+
+.carousel-item.slide img{
+	min-width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+.carousel-item.slide{
 	width: 100%;
+	position: relative;
+}
+.carousel-container {
+	width: 100%;
+}
+.carousel-container .carousel-item .slide img{
+	
 	opacity: 0.8;
 }
-.carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
-    width: 100%;
-}
+
 .slide-article{
 	width: 100%;
 	position: absolute;
@@ -88,6 +100,11 @@ Slider style
 .slide-article h2, .slide-article p{
 	color: #fff;
 }
+
+.slide-article .carousel-article-container h2{
+	font-size: 2.3em;
+}
+
 .carousel-btn-container{
 	width: 50%;
 	display: flex;
@@ -98,12 +115,14 @@ Slider style
 	text-decoration: none;
 	color: #fff;
 	background: #F1592A;
-	padding: 12px;
-	font-weight: bold;
-	border-radius: 5px;
-	font-size: 15px;
+	padding: 12px 25px;
+	border-radius: 30px;
+	font-size: .8em;
 	transition: background-color .5s;
+	font-family: 'Poppins';
+	font-weight: 400;
 }
+
 .btn-carousel a{
 	text-decoration: none;
 	color: #fff;
@@ -112,7 +131,7 @@ Slider style
 	max-width: 350px;
 }
 .btn-carousel:hover {
-    background-color: rgb(2, 79, 204);
+    background-color: #dc3545;
 }
 .carousel-control-prev, .carousel-control-next{
 	height: 35px;
@@ -156,6 +175,29 @@ Slider style
 	color:#fff;
 	transition: opacity 300ms ease-out;
 }
+
+/* Carousel addition settings */
+.carousel-fade .carousel-inner .carousel-item {
+  -webkit-transition-property:opacity;
+  transition-property:opacity;
+}
+
+.carousel .slide {
+}
+.carousel-fade .carousel-inner .active.carousel-item-left, .carousel-fade .carousel-inner .active.carousel-item-right, .carousel-fade .carousel-inner .carousel-item {
+  opacity:.4;
+  transition: opacity .2s;
+}
+
+.carousel-fade .carousel-inner .active, .carousel-fade .carousel-inner .carousel-item-next.carousel-item-left, .carousel-fade .carousel-inner .carousel-item-prev.carousel-item-right {
+  opacity:1;
+}
+
+.carousel-fade .carousel-inner .active.carousel-item-left, .carousel-fade .carousel-inner .active.carousel-item-right, .carousel-fade .carousel-inner .carousel-item-next, .carousel-fade .carousel-inner .carousel-item-prev {
+  left:0;
+  -webkit-transform:translate3d(0,0,0);
+  transform:translate3d(0,0,0);
+}
 /*
 ================================================================================================
 Section actualité
@@ -163,6 +205,7 @@ Section actualité
 */
 .section-evenement{
 	background-color: #F2F2F2;
+	overflow: hidden;
 }
 .section-evenement-title {
 	padding: 25px;
@@ -222,7 +265,7 @@ Section actualité
 }
 
 .card-body{
-	padding: 0px;
+	padding: 0px 10px 0px 10px;
 	background-color: white;
 	text-align: center;
 }
@@ -236,7 +279,8 @@ Section actualité
 .btn-article{
 	cursor: pointer;
 	width: 114px;
-	font-size: 0.9em;
+	font-size: 16px;
+	font-weight: 550;
 	padding: 8px;
 	/*background: #F51F8A;*/
 	border-bottom: 2px solid #F1592A;
@@ -263,7 +307,7 @@ Section parallax
 	background-image: url("../img/img4.jpg");
 
     /* Set a specific height */
-    min-height: 350px; 
+    /*min-height: 350px;*/ 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -281,7 +325,7 @@ Section parallax
 .parallax-card-text{
 	width: 50%;
 	color: #d9d7d7;
-	padding: 20px 85px 20px 85px;
+	padding: 40px 0px 40px 85px;
 }
 .parallax-card-text h2{
 	color: #F1592A;
@@ -391,11 +435,11 @@ footer{
 	color: color: #d9d7d7;
 }
 .footer-container-top{
-	padding: 15px 85px 20px 85px;
+	padding: 40px 85px 40px 85px;
 }
 .footer-logo img{
 	width: 150px;
-	min-height: 100%;
+	height: auto;
 }
 footer .descriptition-container p{
 	color: #d9d7d7;
@@ -425,7 +469,7 @@ footer .descriptition-container i{
     display: block;
     position: absolute;
     left: 0;
-    font-size: 15px;
+    font-size: 17px;
 	color: #d9d7d7;
     content: "\f105";
 }
@@ -455,13 +499,13 @@ footer .signature-container {
 }
 /*
 ================================================================================================
-page archive
+page single
 ================================================================================================
 */
-.section{
+.single-container{
 	background-color: #eff1f4;
 }
-.archive-section{
+.single-container{
 	background-image: url('../img/slide_2.jpg');
 	height: 350px;
 	background-size: cover;
