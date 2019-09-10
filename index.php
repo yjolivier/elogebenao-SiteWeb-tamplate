@@ -4,7 +4,7 @@
 				<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-pause="true" data-ride="false">
 					<div class="carousel-inner">
 			      		<div class="carousel-item slide active">
-		                    <img src="https://samuelguebo.ci/medias/uploads/2018/03/Wiki-Kisra_maker-1080x400.jpeg">
+		                    <img src="img/img.png">
 		                    <div class="slide-article">
 		                    	<div class="carousel-article-container">
 				                    <h2>
@@ -24,7 +24,7 @@
 		                    </div>
 	                	</div>
 		                <div class="carousel-item slide ">
-				            <img src="img/slide_2.jpg" width="100%" height="auto">
+				            <img src="img/img9.jpg" width="100%" height="auto">
 		                    <div class="slide-article">
 		                    	<div class="carousel-article-container">
 				                    <h2>
@@ -44,7 +44,7 @@
 		                    </div>
 				        </div>
 				        <div class="carousel-item slide ">
-				            <img src="img/slide_3.jpg" width="100%" height="auto">
+				            <img src="img/img.jpg" width="100%" height="auto">
 		                    <div class="slide-article">
 		                    	<div class="carousel-article-container">
 				                    <h2>
@@ -89,7 +89,7 @@
 	        <div class="card article col-lg-4 col-md-6">
 	        	<div class="card-container">  
 		            <div class="card-img">
-		            	<img src="img/img4.jpg" class="card-img-top" alt="...">
+		            	<img src="img/slide_2.jpg" class="card-img-top" alt="...">
 		            </div>
 		            <div class="card-body">
 		                <p class="card-text">
@@ -107,7 +107,7 @@
 	        <div class="card article col-lg-4 col-md-6">
 	        	<div class="card-container">
 		            <div class="card-img">
-		            	<img src="img/img2.jpg" class="card-img-top" alt="...">
+		            	<img src="img/img7.jpg" class="card-img-top" alt="...">
 		            </div>
 		            <div class="card-body">
 		                <p class="card-text">
@@ -125,7 +125,7 @@
 	        <div class="card article col-lg-4 col-md-6">
 	        	<div class="card-container">
 		        	<div class="card-img">
-		            	<img src="img/img3.jpg" class="card-img-top" alt="...">
+		            	<img src="img/img9.jpg" class="card-img-top" alt="...">
 		            </div>
 		            <div class="card-body">
 		                <p class="card-text">
@@ -166,7 +166,7 @@
 		<hr width="100%" size="0.25" color="#F1592A" />
 		<div class="block-project-left col-lg-6 col-md-6 col-sm-12">
 			<div class="project">
-				<a href="#"><img src="img/img6.jpg"></a>
+				<a href="#"><img src="img/img2.jpg"></a>
 				<div class="project-text-left">
 					<h5>EVENEMENT</h5>
 	          		<p>Discover flexible car financing options for new or used cars, and specialty vehicles nsequat fringi porta.</p>
@@ -177,7 +177,7 @@
 			<div class="row">
 				<div class="block-project col-lg-12 col-md-12 col-sm-12">
 					<div class="project">
-						<img src="img/img3.jpg">
+						<img src="img/img1.jpg">
 						<div class="project-text">
 							<h5>EVENEMENT</h5>
 	          				<p>Discover flexible car financing options for new or used cars, and specialty vehicles nsequat fringi porta.</p>
@@ -186,7 +186,7 @@
 				</div>
 				<div class="block-project col-lg-12 col-md-12 col-sm-12">
 					<div class="project">
-						<img src="img/img7.jpg">
+						<img src="img/img4.jpg">
 						<div class="project-text">
 							<h5>EVENEMENT</h5>
 	          				<p>Discover flexible car financing options for new or used cars, and specialty vehicles nsequat fringi porta.</p>
